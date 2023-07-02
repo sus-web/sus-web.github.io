@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: #222;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: red;
+      cursor: pointer;
+      font-size: 20px;
+      color: #fff;
+    }
+
+    .button:hover {
+      background-color: #ff0000;
+    }
+
+    .button:active {
+      background-color: #990000;
+    }
+
+    .play-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      height: 40px;
+      border-radius: 5px;
+      background-color: blue;
+      cursor: pointer;
+      font-size: 16px;
+      color: #fff;
+      margin-right: 10px;
+    }
+
+    .play-button:hover {
+      background-color: #0000ff;
+    }
+
+    .play-button:active {
+      background-color: #000099;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <a class="play-button" href="https://www.roblox.com/games/5956785391/Update-1-5-Project-Slayers" target="_blank">Играть в Project Slayers</a>
+    <div class="button" onclick="openImage()">
+      Нажми меня
+    </div>
+  </div>
+
+  <script>
+    function openImage() {
+      window.open('https://i.etsystatic.com/9793565/r/il/eaa156/1006989508/il_570xN.1006989508_atrg.jpg', '_blank');
+    }
+  </script>
+</body>
+</html>
